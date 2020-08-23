@@ -12,4 +12,4 @@ Starting from tomorrow ***A journey towards 300 Hours of Code + 100 Projects in 
 
 **Fork** this repo and sart your journey to code along with
 
-## [Shashank Kesarwani](https://github.com/amshashank) & [Arpit Kesarwani](https://github.com/arpk44)
+## [Shashank Kesarwani](https://github.com/amshashank)
