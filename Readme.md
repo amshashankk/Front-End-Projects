@@ -7,4 +7,4 @@ Starting from tomorrow ***A journey towards 2080 Hours of Code + 100 Projects in
 
 Do **Fork** this repo and sart your journey to code along with us
 
-@amshashank
+[Shashank Kesarwani](https://github.com/amshashank)
