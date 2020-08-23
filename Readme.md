@@ -10,6 +10,6 @@ Starting from tomorrow ***A journey towards 300 Hours of Code + 100 Projects in 
 [300 Hours Code](https://www.freecodecamp.org/learn/)
 [100 Projects](https://www.florin-pop.com/blog/2019/09/100-days-100-projects/)
 
-**Fork** this repo and sart your journey to code along with
+**Fork & Star** this repo and sart your journey to code along with
 
 ## [Shashank Kesarwani](https://github.com/amshashank)
