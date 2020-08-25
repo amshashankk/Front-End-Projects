@@ -12,4 +12,7 @@
 
 **Fork & Star** this repo and sart your journey to code along with
 
+# Currenty Managed by:
+
 ## [Shashank Kesarwani](https://github.com/amshashank)
+## [Arpit Kesarwani](https://github.com/arpk44)
