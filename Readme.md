@@ -15,4 +15,5 @@
 # Currenty Managed by:
 
 ## [Shashank Kesarwani](https://github.com/amshashank)
+## [Mantasha Shakeel](https://github.com/ammantasha)
 ## [Arpit Kesarwani](https://github.com/arpk44)
