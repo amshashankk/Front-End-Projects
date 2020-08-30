@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC|Lora&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eee;
+	font-family: 'Holtwood One SC';
+	margin: 0;
+}
+
+.hidden-big {
+	display: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 50px;
+	max-width: 1200px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.box {
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	padding: 50px;
+	width: 500px;
+	min-height: 500px;
+	position: relative;
+}
+
+.row.small .box {
+	min-height: 200px;
+}
+
+.row.mid .box {
+	min-height: 250px;
+}
+
+.box.dark {
+	background-color: #c0c0c0;
+	color: #fff;
+}
+
+.box:first-of-type {
+	background-position: top left;
+	text-align: right;
+}
+
+.box:last-of-type {
+	background-position: top right;
+}
+
+.heading {
+	letter-spacing: 2px;
+	font-size: 60px;
+	position: absolute;
+	top: 50px;
+	margin: 0;
+}
+
+.subheading {
+	font-family: 'Lora';
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+}
+
+.row.mid .subheading {
+	top: 70%;
+}
+
+.name {
+	letter-spacing: 2px;
+	font-size: 48px;
+	position: absolute;
+	bottom: 10px;
+	margin: 0;
+}
+
+.box:first-of-type .name,
+.box:first-of-type .heading {
+	right: 10px;
+}
+
+.box:last-of-type .name,
+.box:last-of-type .heading {
+	left: 10px;
+}
+
+.number {
+	color: #c0c0c0;
+	font-family: 'Lora';
+	font-size: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	opacity: 0.4;
+	transform: translate(-50%, -50%);
+	z-index: 0;
+}
+
+.movies {
+	font-family: 'Lora';
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	list-style-type: none;
+	padding: 0;
+	position: relative;
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 1;
+}
+
+.movies li {
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 1000px) {
+	.hidden-big {
+		display: inline;
+	}
+
+	.hidden-small {
+		display: none;
+	}
+
+	.box {
+		order: 2;
+		min-height: auto;
+	}
+
+	.box.dark {
+		order: 1;
+		min-height: 300px;
+	}
+
+	.heading {
+		font-size: 40px;
+		text-align: center;
+		right: 0 !important;
+		top: 20px;
+		width: 100%;
+	}
+	
+	.subheading {
+		font-size: 25px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.number {
+		font-size: 200px;
+	}
+	
+	.name {
+		line-height: 1;
+		left: 50% !important;
+		right: auto !important;
+		text-align: center;
+		transform: translateX(-50%);
+		width: 100%;
+	}
+
+	.movies {
+		text-align: center;
+	}
+
+	.row.small .box {
+		padding: 20px;
+		min-height: auto;
+	}
+
+	.row.mid .box {
+		min-height: 100px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.row, .box {
+		width: 100%;
+	}
+}
