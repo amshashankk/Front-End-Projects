@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('https://image.freepik.com/free-photo/white-paper-with-grid-line-pattern-background_64749-690.jpg');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Big Shoulders Display', sans-serif;
+	margin: 0 0 50px;
+	padding: 20px;
+	min-height: 100vh;
+}
+
+.container {
+	border: 2px solid #000;
+	background-color: rgba(255, 255, 255, 0.7);
+	font-size: 2em;
+	padding: 30px 20px;
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	max-width: 100%;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+input,
+.btn {
+	padding: 10px 15px;
+	font-family: 'Big Shoulders Display', sans-serif;
+	font-size: 20px;
+}
+
+.btn {
+	background-color: #000;
+	border: 2px solid #000;
+	color: #fff;
+}
+
+.row {
+	display: flex;
+}
+
+.col-1 {
+	flex: 2;
+}
+
+.col-2 {
+	flex: 1;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.calculation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculation .op {
+	padding: 10px;
+	font-size: 100px;
+	line-height: 100px;
+	margin: 0;
+}
+
+.answer {
+	border: 0;
+	border: 2px solid #000;
+	background: transparent;
+	font-family: 'Big Shoulders Display', sans-serif;
+	font-size: 100px;
+	padding: 10px;
+	max-width: 200px;
+}
+
+.answer:focus {
+	outline: none;
+}
+
+.answer.wrong {
+	border-color: orangered;
+}
+
+.score {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.name {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.leaderboard {
+	border-radius: 5px;
+}
+
+h3 {
+	margin: 0 0 15px;
+	text-decoration: underline;
+}
+
+.leaderboard ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.leaderboard ul li {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0;
+}
+
+@media screen and (max-width: 1000px) {	
+	.container {
+		width: 100%;	
+	}
+
+	.row {
+		flex-direction: column;
+	}
+	
+	.answer {
+		font-size: 80px;
+		max-width: 150px;
+	}
+
+	.calculation .op {
+		font-size: 80px;
+	}
+
+	.leaderboard {
+		margin: 40px auto 0;
+		max-width: 300px;
+	}
+}
