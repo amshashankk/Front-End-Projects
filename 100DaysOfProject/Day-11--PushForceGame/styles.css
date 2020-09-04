@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Courier', sans-serif;
+	margin: 0;
+	height: 100vh;
+}
+
+.instructions {
+	background-color: #fff;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 20px;
+	z-index: 10;
+}
+
+.instructions button {
+	background-color: #000;
+	border: none;
+	color: #fff;
+	font-family: 'Courier', sans-serif;
+	font-size: 16px;
+	padding: 10px 12px;
+}
+
+#score {
+	color: #fff;
+	font-size: 24px;
+	margin: 0;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	z-index: 10;
+}
+
+#share_container {
+	color: #fff;
+	font-size: 20px;
+	position: fixed;
+	top: 10px;
+	left: 50%;
+	margin: 0;
+	transform: translateX(-50%);
+}
+
+#share_container a {
+	cursor: pointer;
+	color: #38a1f3;
+	text-decoration: none;
+}
