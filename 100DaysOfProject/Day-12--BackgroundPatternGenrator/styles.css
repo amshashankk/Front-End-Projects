@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Muli';
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.element {
+	transition: all 0.5s linear;
+	transform-origin: center center;
+}
+
+.settings {
+	background-color: #001F61;
+	color: #fff;
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	width: 200px;
+}
+
+.settings h2 {
+	margin: 0 0 5px;
+	text-align: center;
+}
+
+.settings label {
+	font-size: 12px;
+}
+
+.settings p {
+	margin: 10px 0 5px;
+}
+
+.settings input[type='number'], .settings select {
+	padding: 7px;
+	font-size: 14px;
+	width: 100%;
+}
