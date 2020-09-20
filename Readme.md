@@ -1,18 +1,16 @@
 # You can't cross the sea merely by standing and staring at the water
 
-## 300 Hours Of Code +
 ## 100 DAYS 100 PROJECTS CHALLENGE
 
-***A journey towards 300 Hours of Code + 100 Projects in Front-End using HTML, CSS, NodeJs, JavaScript, etc..***
+***A journey towards 100 Projects in 100 Days in Front-End using HTML, CSS, & JavaScript**
 
 #### Resources
 
-[300 Hours Code](https://www.freecodecamp.org/learn/)
 [100 Projects](https://www.florin-pop.com/blog/2019/09/100-days-100-projects/)
 
-**Fork & Star** this repo and sart your journey to code along with
+**Fork & Star** this repo to sart your journey to code
 
 # Currenty Managed by:
 
 ## [Shashank Kesarwani](https://github.com/amshashank)
-## [Arpit Kesarwani](https://github.com/arpk44)
+
